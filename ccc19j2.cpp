@@ -1,3 +1,5 @@
+// CCC 2019 J2 - Time to Decompress 
+// by: Dan Shan
 #include <iostream>
 #include <vector>
 #include <cmath>
