@@ -1,3 +1,5 @@
+// CCCHK 2015 J2 - What is the minimum area?
+// by Dan Shan
 #include <iostream>
 #include <vector>
 #include <cmath>
