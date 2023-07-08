@@ -1,3 +1,5 @@
+// CCCHK 2008 J3 - Phone book
+// by: Dan Shan
 #include <iostream>
 #include <vector>
 #include <cmath>
