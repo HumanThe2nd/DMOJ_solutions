@@ -1,3 +1,5 @@
+// DWITE '08 R3 #2 - Wordcount++
+// by: Dan Shan
 #include <iostream>
 #include <list>
 #include <vector>
