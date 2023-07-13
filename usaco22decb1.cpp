@@ -1,3 +1,5 @@
+// USACO 2022 December Bronze P1 -Cow College
+// by: Dan Shan
 #include <iostream>
 #include <vector>
 #include <cmath>
