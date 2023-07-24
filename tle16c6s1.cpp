@@ -1,4 +1,4 @@
-// ECOO '20 P2 - Online Shopping
+// TLE '16 Contest 6 (Mock CCC) S1 - Writing the CCC
 // By: Dan Shan
 #include <bits/stdc++.h>
 using namespace std;
