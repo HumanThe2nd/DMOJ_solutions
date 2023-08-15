@@ -1,4 +1,4 @@
-// DMOPC '19 Contest 6 P2 - Grade 10 Math
+// DMOPC '14 Contest 3 P4 - Not Enough Testers!
 // By: Dan Shan 
 #include <bits/stdc++.h>
 using namespace std;
