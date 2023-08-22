@@ -10,6 +10,25 @@ int main(){
     int n,m;
     scanf("%d %d",&n,&m);
     if(n==1||m==1){ printf("-1\n"); continue;};
+    if(n==m){
+      for(int i=0;i<n;i++){
+      if(r){
+      r=0;
+      for(int j=1;j<m;j++){
+        printf("%d ",j+(i*m));
+      }
+      printf("%d\n",(i*m)+m);
+      }
+      else{
+      r=1;
+      for(int j=m;j>1;j--){
+        printf("%d ",j+(i*m));
+      }
+      printf("%d\n",(i*m)+1);
+      }
+    }
+    }
+    else{
     for(int i=0;i<n;i++){
       if(r){
       r=0;
@@ -34,6 +53,7 @@ int main(){
       }
       printf("%d\n",(i*m)+2);
       }
+    }
     }
   }
 }
