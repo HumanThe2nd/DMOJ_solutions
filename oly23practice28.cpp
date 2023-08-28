@@ -1,4 +1,4 @@
-Distinct Array
+// Distinct Array
 // By: Dan Shan
 #include <bits/stdc++.h>
 using namespace std;
