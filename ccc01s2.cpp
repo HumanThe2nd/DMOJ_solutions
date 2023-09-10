@@ -4,7 +4,7 @@
 using namespace std;
 using ll = long long;
 int main(){
-  int s,e,n=1;
+  int s,e;
   scanf("%d %d",&s,&e);
   deque<deque<int>> v{{s}};
   s++;
