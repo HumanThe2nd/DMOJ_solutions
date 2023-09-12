@@ -1,0 +1,25 @@
+// ECOO '19 R1 P1 - Free Shirts
+// By: Dan Shan
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+int main(){
+  for(int _=0;_<10;_++){
+  int n,m,d,c=0;
+  scanf("%d %d %d",&n,&m,&d);
+  unordered_map<int, int> e;
+  for(int i=0;i<m;i++){
+    int day;
+    scanf("%d",&day);
+    if(e.find(day)!=e.end())e[day]++;
+    else e[day]=1;
+  }
+  m = n; // using m to represent clean shirts
+  for(int i=1;i<=d;i++){
+    if(!m){c++;m=n;}
+    if(e.find(i)!=e.end()){n+=e[i];m+=e[i];}
+    m--;
+  }
+  printf("%d\n",c);
+} 
+}
