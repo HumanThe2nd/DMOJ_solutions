@@ -2,7 +2,7 @@
 // Name        : DMOPC '21 Contest 2 P1 - Bosses
 // Author      : Dan Shan
 //============================================================================
-// Goal: check if maze is possible given each square can move to anotehr square
+// Goal: check if maze is possible given each square can move to another square
 // 		 of which the coordinates multiple to the number of the square
 // Approach: create adjacency map connecting each cord product the square value 
 // 			 and run BFS to return true if end point is found
