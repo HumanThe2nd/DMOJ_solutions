@@ -1,5 +1,5 @@
 //============================================================================
-// Name        : DMOPC '21 Contest 2 P1 - Bosses
+// Name        : CCC '20 S2 - Escape Room
 // Author      : Dan Shan
 //============================================================================
 // Goal: check if maze is possible given each square can move to another square
