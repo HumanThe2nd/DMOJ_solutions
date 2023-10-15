@@ -2,8 +2,8 @@
 // Name        : CCC '19 S1 - Flipper
 // Author      : Dan Shan
 //============================================================================
-#include <bits/stdc++.h>
-using namespace std;
+#include <stdio.h>
+#include <string.h>
 int main(){
 	char in[1000001];
   scanf("%s",in);
