@@ -13,9 +13,8 @@ for(int i=0;i<t;i++){
 	scanf("%d %d %d",&a,&b,&n);
 	if(!(n%b%a)||!(n%a%b))y=1;
 for(int k=1;k<n;k++){
-	for(int j=1;j<n;j++){
-		if((double)n/(k*a+j*b)==0)y=1;
-	}
+		if(n%(k*a)%b==0)y=1;
+		else if(n%(k*b)%a==0)y=1;
 }
 if(y)printf("YES\n");
 else printf("NO\n");
