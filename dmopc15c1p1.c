@@ -1,3 +1,5 @@
+// DMOPC '15 Contest 1 P1 - Itami and Manga
+// By: Dan Shan
 #include <stdio.h>
 int main(){
 int n;
