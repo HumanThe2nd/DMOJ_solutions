@@ -1,5 +1,10 @@
-// CCC '12 S3 - Absolutely Acidic
-// By: Dan Shan
+//============================================================================
+// Name        : CCC '12 S3 - Absolutely Acidic
+// Author      : Dan Shan
+//============================================================================
+// Goal: find 2 most common numbers with largest difference in array
+// Approach: store number of occurence of each number and find top 2 occurence counts
+//           find lowest for one and highest for the other and find largest difference
 #include <stdio.h>
 int n,r[1001],max,min,a1,a2,b1,b2;
 int main() {
