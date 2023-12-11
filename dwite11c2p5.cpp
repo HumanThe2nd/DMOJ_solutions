@@ -1,5 +1,7 @@
 // DWITE '11 R2 #5 - Portals Check
 // By: Dan Shan
+// DSU using strings instead of integers
+// Note: for strings this solution uses maps instead of the typical vector/array
 #include<iostream>
 #include<unordered_map>
 using namespace std;
