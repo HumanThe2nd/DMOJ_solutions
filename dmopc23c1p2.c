@@ -6,7 +6,7 @@
 int main() {
 int n;
 scanf("%d",&n);
-int g[n][n],k=(n+3)*n/5,c=0;
+int g[n][n];
 for(int i=0;i<n;i++){
 	for(int j=0;j<n;j++){
 		g[i][j]=0;
@@ -37,11 +37,6 @@ if(g[1][n-4]){
         g[i][n-4]=0;
         g[i][n-3]=0;
     }
-}
-for(int i=0;i<n;i++){
-	for(int j=0;j<n;j++){
-		c+=g[i][j];
-	}
 }
 for(int i=0;i<n;i++){
 	for(int j=0;j<n-1;j++){
