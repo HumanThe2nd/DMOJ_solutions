@@ -1,7 +1,8 @@
 // Obsessive Equalizing Disorder
 // By: Dan Shan
-// we must edit elements in increasing order of index as you can never edit a factor of a number such as 1
-// therefore we start at 2 for each element edit inself to match 1 which can't change then adjust its multiples respectively
+// we must edit elements in increasing order of index as you can never edit a factor of a number
+// we note that 1 is a factor of every index therefore we skip it and use its value as the value to chnage evrything else to
+// therefore we start at 2 for each element edit it to index 1 which can't change then adjust its multiples accordingly
 #include<stdio.h>
 int main() {
 int n,f;
