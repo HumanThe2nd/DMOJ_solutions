@@ -56,7 +56,7 @@ int main() {
     if(!k||(ql[k-1]<index2[0]&&qi[k-1])){
     ql[k]=1; qr[k]=index2[0]+1; qi[k]=1; k++;
     }
-    if(k||(qr[k-1]<n-1&&qi[k-1]!=1)){
+    if(k){ // This was a typo but it ended up passing and what i meant to write didn't...
     ql[k]=index.back()+1; qr[k]=n; qi[k]=0; k++;
     }
     printf("%d\n",k);
