@@ -1,0 +1,39 @@
+// Mock CCC '20 Contest 1 J4 - A Binary Problem
+// By: Dan Shan
+// count number of consecutive zeros
+// if last number was zero,
+// add (leading zero count+1)/2 to sum 
+// for the trailing and leadings zeros on edges,
+// add each index from the edges of the zeros (one indexed)
+#include<stdio.h>
+int scan() {
+    int num = 0;
+    char c = getchar_unlocked();
+    while (c>'9'||c<'0') c = getchar_unlocked();
+    while (c>='0'&&c<='9') {
+        num=num*10+c-'0';
+        c=getchar_unlocked();
+    }
+    return num;
+}
+int main(){
+    int n,l=0;
+    long long c=0;
+    scanf("%d",&n); getchar_unlocked();
+    while(l<n){
+        l++;
+        char h= getchar_unlocked();
+        if(h=='1') break;
+        c+=l;
+    }
+    for(int i=l+1;i<=n;i++){
+        char h = getchar_unlocked();
+        if(h=='1') l=i;
+        c+=(i-l+1)/2;
+    }
+    for(int i=1;i<=n-l;i++){
+        c-=(i+1)/2;
+        c+=i;
+    }
+    printf("%lld\n",c);
+}
