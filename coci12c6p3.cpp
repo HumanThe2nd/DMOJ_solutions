@@ -1,5 +1,9 @@
 // COCI '12 Contest 6 #3 Dobri
 // By: Dan Shan
+// compute all combinations of 2 numbers
+// for each element subtract it by one of the elements before it
+// if the subtracted value is a sum of 2 precomputed numbers it is good
+// unordered map used for O(1) store and access 
 #include <iostream>
 #include<unordered_map>
 int main() {
