@@ -1,0 +1,11 @@
+// Olympic Scoring
+// Author: Dan Shan
+#include<stdio.h>
+int main(int argc, char *argv[]) {
+    long long n,b,s,g;
+    scanf("%lld %lld %lld %lld",&n,&b,&s,&g);
+    n-=b+3*s+5*g-5;
+    if(n<0)printf("0\n");
+    else printf("%lld\n",n/5);
+    return 0;
+}
