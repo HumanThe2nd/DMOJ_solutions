@@ -1,26 +1,43 @@
 // CCC '24 J4 - Troublesome Keys
-// By: Dan Shan
+// Author: Dan Shan
+// Date: 2024-08-31
+// find characters in fake string never occuring in real string
 #include <stdio.h>
-#include <string.h>
+int a[26],a2[26];
 int main() {
-    char s1[500001],s2[500001],q='-';
-    scanf("%s %s",s1,s2);
-    int l1 = strlen(s1), l2 = strlen(s2);
-    int i,j=0;
-    char s[]={'-','-'}; // Initialize s[0] and s[1] to '-'
-    for(i=0;i<=l1;i++){
-        if(j>l2) break;
-        if(s1[i]==s2[j]){
-            j++;
-            continue;
-        }
-        if(s1[i]==q){
-            continue;
-        }
-        else if(s1[i+1]==s2[j]) q=s1[i];
-        else{
-            s[0]=s1[i]; s[1]=s2[j]; j++;
+    char s[500001],s2[500001];
+    scanf("%s %s",s,s2);
+    for(int i=0;i<500001;i++){
+        if(s[i]=='\0') break;
+        a[s[i]-'a']++;
+    }
+    for(int i=0;i<500001;i++){
+        if(s2[i]=='\0') break;
+        a2[s2[i]-'a']++;
+    }
+    char sil='-',q='-',q2;
+    for(int i=0;i<26;i++){ // assumes silly key is larger alphabetically
+        if(!a[i]&&a2[i]) q2='a'+i;
+        else if(a[i]&&!a2[i]) {
+            if(q=='-') q='a'+i;
+            else sil='a'+i;
         }
     }
-    printf("%c %c\n%c\n",s[0],s[1],q);
+    int l=0,f=0; // flip silly with quiet if verification fails
+    for(int i=0;i<500001;i++){ // verify
+        if(s[i]=='\0') break;
+        if(s[i]==sil) {
+            l++;
+            continue;
+        }
+        if(s[i]==q&&s2[i-l]==q2) continue;
+        else if(s[i]!=s2[i-l]){
+            f=1; break;
+        }
+    }
+    if(f){
+        char temp=sil;
+        sil=q; q=temp;
+    }
+    printf("%c %c\n%c\n",q,q2,sil);
 }
