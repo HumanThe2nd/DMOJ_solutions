@@ -1,4 +1,6 @@
 // CCC '04 S2 - TopYodeller
+// Author: Dan Shan
+// 2024-09-19
 // update maximums each iteration and store sum of columns
 #include <bits/stdc++.h>
 using namespace std;
