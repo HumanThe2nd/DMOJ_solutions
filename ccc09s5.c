@@ -6,16 +6,21 @@
 // note: cicles may go out of bounds. If the left edge of the circle is out of bounds start the left edge at y=0 to account for the portion within the grid
 #include <stdio.h>
 #include <math.h>
+int scan() {
+    int num = 0;
+    char c = getchar_unlocked();
+    while (c>'9'||c<'0') c = getchar_unlocked();
+    while (c>='0'&&c<='9') {
+        num=num*10+c-'0';
+        c=getchar_unlocked();
+    }
+    return num;
+}
+int a[1001][30001];
 int main() {
-	int m,n,k;
-	scanf("%d %d %d",&m,&n,&k);
-	int a[n+1][m+1];
-	for(int i=0;i<=n;i++){
-		for(int j=0;j<=m;j++) a[i][j]=0;
-	}
+	int m=scan(),n=scan(),k=scan();
 	while(k--){
-		int x,y,r,b;
-		scanf("%d %d %d %d",&x,&y,&r,&b);
+		int x=scan(),y=scan(),r=scan(),b=scan();
 		int xi=r;
 		while(xi>=-r){
 			int yi=sqrt(r*r-xi*xi);
