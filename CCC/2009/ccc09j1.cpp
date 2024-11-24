@@ -1,3 +1,8 @@
+/*
+CCC '09 J1 - ISBN
+Author: Dan Shan
+Date: 2024-06-29
+*/
 #include <iostream>
 using namespace std;
 int main() {
