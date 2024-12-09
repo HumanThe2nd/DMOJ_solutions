@@ -6,7 +6,7 @@ Input using difference array of missing potatos
 Create normal array and subtract missing potatos 
 Convert to Prefix sum array
 2 pointer approach for minimum interval width
-Note: special case where no potatos are needed, width is zero
+Note: special case where no potatoes are needed, width is zero
 */
 #include <stdio.h>
 #pragma GCC optimize("Ofast")
