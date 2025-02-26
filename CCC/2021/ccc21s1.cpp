@@ -1,6 +1,7 @@
 //============================================================================
 // Name        : CCC '21 S1 - Crazy Fencing
-// Author      : Dan Shan
+// Author      : HumanThe2nd
+// Date        : 2023, Oct 1
 //============================================================================
 // Goal: find area of a chain of quadrilaterals
 // Approach: input heights then sum the area between each 2 fences
