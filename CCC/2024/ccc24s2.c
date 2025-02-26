@@ -1,5 +1,6 @@
 // CCC '24 S2 - Heavy-Light Composition
 // By: Dan Shan
+// Date: 2024-03-02
 #include<stdio.h>
 int main() {
     int t,n;
