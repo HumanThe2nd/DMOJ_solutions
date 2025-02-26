@@ -1,6 +1,6 @@
 /*
 CCC '25 S2 - Cryptogram Cracking Club
-Author: Dan Shan
+Author: HumanThe2nd
 Date: 2025-02-19
 convert from string to letters with their respective length
 modulo total length for 'c'
