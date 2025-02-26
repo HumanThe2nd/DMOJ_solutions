@@ -1,3 +1,8 @@
+/*
+CCC '24 S1 - Hat Circle
+Author: HumanThe2nd
+Date: 2024-03-02
+*/
 #include <stdio.h>
 int main() {
     int n,c=0;
