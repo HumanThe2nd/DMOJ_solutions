@@ -1,6 +1,6 @@
 /*
 CCC '25 S1 - Positioning Peter's Paintings
-Author: Dan Shan
+Author: HumanThe2nd
 Date: 2025-02-19
 rectangles must share the length or width, pick the minimal
 output perimeter: 2*width + 2*length
