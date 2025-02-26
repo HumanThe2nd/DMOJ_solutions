@@ -1,5 +1,6 @@
 // CCC '24 S3 - Swipe
 // By: Dan Shan
+// Date: 2024-03-03
 #include <bits/stdc++.h>
 using namespace std;
 int main() {
