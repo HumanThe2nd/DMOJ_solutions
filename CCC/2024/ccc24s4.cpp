@@ -1,6 +1,7 @@
 // CCC '24 S4 - Painting Roads
 // By: Dan Shan
-// template dfs
+// Date: 2024-03-04
+// Depth first search to mark nodes
 #include <bits/stdc++.h>
 using namespace std;
 #define pi pair<int,int>
