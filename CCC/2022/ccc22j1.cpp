@@ -1,3 +1,8 @@
+/*
+CCC '22 J1 - Cupcake Party
+Author: HumanThe2nd
+Date: 2023-02-27
+*/
 #include <iostream>
 #include <cmath>
 
