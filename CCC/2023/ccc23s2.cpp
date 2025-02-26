@@ -1,8 +1,8 @@
 //============================================================================
 // Name        : CCC '23 S2 - Symmetric Mountains
-// Author      : Dan Shan
+// Author      : HumanThe2nd
+// Date        : 2023-07-13
 //============================================================================
-
 #include <bits/stdc++.h>
 using namespace std;
 
