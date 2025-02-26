@@ -1,6 +1,6 @@
 // CCC '24 J5 - Harvest Waterloo
-// By: Dan Shan
-// BFS in c
+// By: HumanThe2nd
+// BFS using C
 #include <stdio.h>
 int main() {
 	int R,C,xl[]={0,0,1,-1},yl[]={1,-1,0,0};
