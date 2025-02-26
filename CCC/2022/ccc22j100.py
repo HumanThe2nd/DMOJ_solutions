@@ -1,3 +1,6 @@
+# CCC '22 J2 - Fergusonball Ratings
+# Author: HumanThe2nd
+# Date: 2023-06-27
 inp = input().split();
 start = int(inp[0]);
 days = int(inp[1]);
