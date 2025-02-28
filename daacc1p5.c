@@ -1,6 +1,6 @@
 /*
 Dr. Anne Anderson Coding Contest 1 P5 - Guessing Grades
-Author: Dan Shan
+Author: HumanThe2nd
 Date: 2025-02-28
 find number of missing characters for each array:
 directly count valid pairs (and store occurence of characters in second string)
