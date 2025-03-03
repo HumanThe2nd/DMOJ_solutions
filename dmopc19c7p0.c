@@ -1,6 +1,6 @@
 /*
 DMOPC '19 Contest 7 P0 - Contest Feedback
-Author: Dan Shan
+Author: HumanThe2nd
 Date: 2025-03-02
 Hard code each combination
 formula: sum of elements / number of elements
