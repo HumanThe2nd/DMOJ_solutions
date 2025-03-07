@@ -1,8 +1,8 @@
 /*
 COCI '11 Contest 6 #1 Jack
-Brute Force 3 nested loops
 Author: HumanThe2nd
 Date: 2025-03-06
+Brute Force 3 nested loops
 Time complexity: O(n^3)
 */
 #include <stdio.h>
