@@ -2,7 +2,7 @@
 CCC '25 J2 - Donut Shop
 Author: HumanThe2nd
 Date: 2025-03-16
-Max between sum and zero
+Take the maximum between zero and the total sum of input
 */
 #include <stdio.h>
 int main(){
