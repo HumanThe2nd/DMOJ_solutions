@@ -3,7 +3,7 @@ COCI '08 Contest 5 #2 Jabuka
 Author: HumanThe2nd
 Date: 2025-04-16
 store all factors of R
-check whether each is disvisible by G
+check whether G can divide each factor
 Time complexity: O( sqrt(R) )
 */
 #include <stdio.h>
