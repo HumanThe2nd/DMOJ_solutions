@@ -2,6 +2,7 @@
 // Author: Dan Shan
 // Date: 2024-10-06
 // theory: hash both strings from middle to edges and compare
+/* Original Hashing Solution
 #include <stdio.h>
 int main() {
     int l,l2,m=0,o=0;
@@ -29,4 +30,46 @@ int main() {
     printf("%s",s);
     for(int i=o;i<l2;i++) putchar(s2[i]);
     putchar('\n');
+}
+*/
+// New Z algorithm solution
+// Author: HumanThe2nd
+// Date: 2025-04-27
+#include <stdio.h>
+#include <string.h>
+#pragma GCC optimize ("Ofast")
+int z[20000002];
+int main() {
+    char s[10000001],p[30000002];
+    scanf("%s %s",s,p);
+    int n=strlen(s),m=strlen(p),l=0,r=0;
+    p[m++]='?'; // seperator
+    for(int i=0;i<n;++i){
+        p[m+i]=s[i];
+    }
+    n+=m; // length of combined str
+    for(int i=1;i<n;++i){
+        if(i>r){
+            l=r=i;
+            while(r<n&&p[r-l]==p[r]) r++;
+            z[i]=r-l; r--;
+            continue;
+        }
+        int k=i-l;
+        if(z[k]<r-i+1) z[i]=z[k];
+        else{
+            l=i;
+            while(r<n&&p[r-l]==p[r]) r++;
+            z[i]=r-l; r--;
+        }
+    } p[m-1]='\0';
+    for(int i=m;i<n;++i){
+        if(z[i]==n-i) {
+            for(int j=0;j<i-m;j++) putchar(s[j]);
+            puts(p);
+            return 0;
+        }
+    }
+    printf("%s",s);
+    puts(p);
 }
