@@ -1,6 +1,6 @@
-// OTHS Coding Competition 1 (Mock CCC) J5 - Scavenger Hunt
-// By: Dan Shan
 /*
+OTHS Coding Competition 1 (Mock CCC) J5 - Scavenger Hunt
+By: Dan Shan
 Theory: 2d Dijkstra's
 Push initial node with time to make first item as weight priority queue,
 Find each first item, push in weights and new nodes repeat with new initial nodes and new starting weights
