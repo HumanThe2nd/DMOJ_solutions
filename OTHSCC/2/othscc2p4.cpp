@@ -2,7 +2,7 @@
 OTHS Coding Competition 2 P4 - Magic Barrier
 Author: Dan Shan
 Date: 2024-07-20
-Basic data Structures
+Basic data structures
 */
 #include <bits/stdc++.h>
 using namespace std;
