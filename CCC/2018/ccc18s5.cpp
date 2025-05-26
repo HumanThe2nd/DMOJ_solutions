@@ -1,5 +1,7 @@
 /*
 CCC '18 S5 - Maximum Strategic Savings
+Author: Dan Shan
+Date: 2025-05-25
 Observation: Only need one portal per planet and one plane per city
 2d grid with planets as rows and cities as columns
 1. Kruskal's MST -> minimum in a row and multiply the number of *remaining* columns
