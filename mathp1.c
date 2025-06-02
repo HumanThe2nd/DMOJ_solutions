@@ -2,6 +2,7 @@
 A Math Contest P1 - Arrays
 Author: Dan Shan
 Date: 2025-06-01
+Math theorem used: Bézout's Identity
 Compute GCD of entire array as positives
 */
 #include <stdio.h>
