@@ -4,7 +4,7 @@ Author: Dan Shan
 Date: 2025-06-10
 1. store forbidden arrays in 2d matrix
 2. brute force each valid triple
-Time Complexity: O(N^2 + N^3) -> O(N^3)
+Time Complexity: O(M + N^3)
 */
 #include <stdio.h>
 #pragma GCC optimize ("Ofast")
