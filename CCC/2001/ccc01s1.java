@@ -1,4 +1,8 @@
-// CCC 2001 S1 Student's Council Breakfast
+/*
+CCC '01 S1 - Keeping Score
+Author: Dan Shan
+Date: 2023-03-30
+*/
 import java.util.Scanner;
 public class Main {
 public static void main(String[] args) {
