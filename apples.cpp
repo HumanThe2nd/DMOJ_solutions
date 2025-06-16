@@ -1,5 +1,5 @@
 // Add Up Apples
-// By: Dan Shan
+// Author: Dan Shan
 #include <bits/stdc++.h>
 using namespace std;
 int print(vector<int> &v,int n,int c){
