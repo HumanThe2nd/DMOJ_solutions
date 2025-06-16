@@ -1,4 +1,5 @@
 // A20 Gate
+// Author: Dan Shan
 #include <stdio.h>
 #include <string.h>
 int main() {
