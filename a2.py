@@ -1,5 +1,5 @@
-// a2 Mirrored Pairs
-// by Dan Shan
+## a2 Mirrored Pairs
+## by Dan Shan
 run = True;
 print("Ready")
 while run == True:
