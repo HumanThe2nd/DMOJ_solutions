@@ -25,6 +25,6 @@ int main() {
             printf("%s",s[l]);
             l++;
         }
-        putchar_unlocked('\n');
+        puts("");
     }
 }
