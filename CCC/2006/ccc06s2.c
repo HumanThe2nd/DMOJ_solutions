@@ -9,12 +9,12 @@ int a[91],a2[91];
 int main() {
 	char s[81];
 	int l=0;
-	s[0]=getchar_unlocked();
+	s[0]=getchar();
 	while(s[l]!='\n'){
-		l++; s[l]=getchar_unlocked();
+		l++; s[l]=getchar();
 	}
 	for(int i=0;i<l;i++){
-		char si=getchar_unlocked();
+		char si=getchar();
 		a[si]=s[i];
 		a2[s[i]]=1;
 	}
@@ -33,12 +33,12 @@ int main() {
 	if(c1==26&&c2==26){ // one of each unknown
 	a[char1]=char2;
 	}
-	l=0; getchar_unlocked();
-	s[0]=getchar_unlocked();
+	l=0; getchar();
+	s[0]=getchar();
 	while(s[l]!='\n'&&s[l]!=EOF){
-		if(a[s[l]]==0) putchar_unlocked('.');
-		else putchar_unlocked(a[s[l]]);
+		if(a[s[l]]==0) putchar('.');
+		else putchar(a[s[l]]);
 		l++;
-		s[l]=getchar_unlocked();
-	} putchar_unlocked('\n');
+		s[l]=getchar();
+	} putchar('\n');
 }
